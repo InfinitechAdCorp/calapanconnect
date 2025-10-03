@@ -1,0 +1,1 @@
+{"version":3,"sources":["turbopack:///[project]/app/account/payments/page.tsx"],"sourcesContent":["import { Maintenance } from \"@/components/maintenance\"\r\n\r\nexport default function PaymentsPage() {\r\n  return <Maintenance />\r\n}\r\n"],"names":[],"mappings":"kRAAA,EAAA,EAAA,CAAA,CAAA,OAEe,SAAS,IACtB,MAAO,CAAA,EAAA,EAAA,GAAA,EAAC,EAAA,WAAW,CAAA,CAAA,EACrB"}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 55, "column": 0}, "map": {"version":3,"sources":["file:///C:/laragon/www/CalapanConnect/calapan-city-connect/app/api/services/business-permit/route.ts"],"sourcesContent":["import { NextResponse } from \"next/server\"\r\n\r\nexport async function POST(request: Request) {\r\n  try {\r\n    const data = await request.json()\r\n\r\n    // TODO: Save to database\r\n    console.log(\"Business permit application:\", data)\r\n\r\n    return NextResponse.json({\r\n      success: true,\r\n      message: \"Application submitted successfully\",\r\n      applicationId: `BP-${Date.now()}`,\r\n    })\r\n  } catch (error) {\r\n    return NextResponse.json({ success: false, message: \"Failed to submit application\" }, { status: 500 })\r\n  }\r\n}\r\n"],"names":[],"mappings":";;;;AAAA;;AAEO,eAAe,KAAK,OAAgB;IACzC,IAAI;QACF,MAAM,OAAO,MAAM,QAAQ,IAAI;QAE/B,yBAAyB;QACzB,QAAQ,GAAG,CAAC,gCAAgC;QAE5C,OAAO,gJAAY,CAAC,IAAI,CAAC;YACvB,SAAS;YACT,SAAS;YACT,eAAe,CAAC,GAAG,EAAE,KAAK,GAAG,IAAI;QACnC;IACF,EAAE,OAAO,OAAO;QACd,OAAO,gJAAY,CAAC,IAAI,CAAC;YAAE,SAAS;YAAO,SAAS;QAA+B,GAAG;YAAE,QAAQ;QAAI;IACtG;AACF","debugId":null}}]
+}

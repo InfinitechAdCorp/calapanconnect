@@ -1,0 +1,3 @@
+{
+  "/api/alerts/mark-all-read/route": "app/api/alerts/mark-all-read/route.js"
+}
